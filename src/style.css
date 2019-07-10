@@ -1,0 +1,22 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.item-body {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.item {
+    color: white;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    user-select: none;
+}
